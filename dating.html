@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/dating-styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/dating-scripts.js"></script>
+    <title>Dating Website</title>
+  </head>
+  <body>
+    <a href="index.html">Animal site</a>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="height">Enter your height in inches:</label>
+          <input id="height" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="blonde" checked>
+            Blonde
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="brunette">
+            Brunette
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="hair" value="red">
+            Red
+          </label>
+        </div>
+        <select class="form-control" id="age">
+          <option value="1">18-25</option>
+          <option value="2">26-35</option>
+          <option value="3">36-45</option>
+          <option value="4">46+</option>
+        </select>
+        <button type="submit" class="btn-primary">Submit</button>
+      </form>
+      <div class="remove" id="charlize">
+        <h3>Your match: Charlize Theron</h3>
+        <img src="img/charlize.jpeg" alt="A photo of Charlize Theron" />
+      </div>
+      <div class="remove" id="milla">
+        <h3>Your match: Milla Jovovich</h3>
+        <img src="img/milla.jpeg" alt="A photo of a Milla Jovovich." />
+      </div>
+      <div class="remove" id="eleanor">
+        <h3>Your match: Eleanor Tomlinson</h3>
+        <img src="img/eleanor.jpeg" alt="A photo of a Eleanor Tomlinson" />
+      </div>
+    </div>
+  </body>
+</html>
